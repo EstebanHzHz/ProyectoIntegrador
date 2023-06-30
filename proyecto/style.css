@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 248, 189);
+    color: rgb(10, 10, 10);
+  }
+  #unico {
+    color: rgb(194, 245, 12);
+    font-weight: bold;
+  }
+  .subtitulo {
+    font-style: italic;
+    color: cornflowerblue;
+  }
+  p {
+    text-anchor: end;
+  }
+  
+  p:hover {
+    font-weight: bolder;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .lista {
+    display: flex;
+    flex-direction: row;
+  }
+  input:valid {
+    background-color: rgb(8, 241, 66);
+  }
+  input:invalid {
+    background-color: rgb(252, 11, 132);
+  }
